@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\linkedinautoapply]
+@="URL:LinkedIn Auto Apply Protocol"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\Software\Classes\linkedinautoapply\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\linkedinautoapply\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\linkedinautoapply\shell\open\command]
+@="\"C:\\Users\\lenovo\\Desktop\\linkedin_auto_apply\\venv\\scripts\\python.exe\" \"C:\\Users\\lenovo\\Desktop\\linkedin_auto_apply\\helper_app\\main.py\" \"%1\""

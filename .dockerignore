@@ -1,0 +1,48 @@
+# Local credentials (templates may be included)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Virtual environments and generated Python files
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Git and editor state
+.git/
+.gitignore
+.vs/
+.idea/
+.vscode/
+
+# Local browser sessions, data, and debug output
+session.json
+**/session.json
+**/debug_screenshots/
+*.log
+**/helper_app_log.txt
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+uploads/
+playwright-report/
+test-results/
+check_db.py
+
+# Tests and personal notes
+.pytest_cache/
+tests/
+Important File/
+scripts/
+
+# Frontend dependencies and generated helper output
+node_modules/
+**/node_modules/
+**/dist/
+**/build/
+helper_app/installer_output/

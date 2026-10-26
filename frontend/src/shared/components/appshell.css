@@ -1,0 +1,63 @@
+.app-shell {
+    min-height: 100vh;
+}
+
+.app-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 32px;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.app-nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.app-nav-logo-icon {
+    width: 22px;
+    height: 22px;
+    background: var(--color-accent);
+    border-radius: 6px;
+}
+
+.app-nav-logo-text {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.app-nav-links {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.app-nav-link {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 0;
+}
+
+    .app-nav-link.active {
+        color: var(--color-text);
+        border-bottom: 2px solid var(--color-accent);
+    }
+
+.app-nav-logout {
+    background: none;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-button);
+    padding: 8px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--color-text-muted);
+}
+
+.app-main {
+    padding: 20px 0 60px 0;
+}

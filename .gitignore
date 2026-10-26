@@ -1,0 +1,53 @@
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Browser sessions, local data, and private notes
+session.json
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+debug_screenshots/
+playwright-report/
+test-results/
+Important File/
+uploads/
+*.log
+helper_app_log.txt
+
+# Python environments and generated files
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# JavaScript dependencies and generated bundles
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Desktop helper build output
+build/
+helper_app/installer_output/
+
+# Editor and operating-system state
+.vs/
+.idea/
+.vscode/
+*.suo
+*.swp
+.DS_Store
+Thumbs.db
